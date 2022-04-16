@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+body{
+    background-color: rgb(61, 61, 61);
+}
+
+
+
+/*CABEÇALO*/
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+
+header > div{
+    width: 90px;
+    height: 77px;
+    border-bottom: black solid 2px;
+    float: right;
+    margin-right: 75px;
+}
+
+header h2{
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    font-family: 'Saira Condensed';
+    font-weight: 600;
+}
+
+header > div:hover{
+    border-bottom: #fc4604 solid 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+header h2:hover{
+    color: #fc4604;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+h1{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 35px;
+    font-family: 'Audiowide';
+    font-weight: 900;
+    display: inline-block;
+    color: #e6e6e6;
+    font-style: italic;
+}
+
+/*Contudo principal*/
+
+main h2{
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Bebas Neue';
+    font-size: 40px;
+    font-style: italic;
+    color: #fc4604;
+}
+
+/*LANÇAMENTOS*/
+
+#lançamentos{
+    width: 250px;
+    height: 680px;
+    margin-top: 45px;
+    margin-left: 30px;
+    display: inline-block;
+    background-color: black;
+    border-radius: 5px;
+}
+
+#lançamentos div{
+    margin-top: 10px;
+}
+
+#lançamentos img{
+    width: 125px;
+    height: 190px;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+#lançamentos h3{
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    color: #fc4604;
+}
+
+#lançamentos p{
+    margin-left: 5px;
+    color: #b3b3b3;
+}
+
+#lançamentos span{
+    text-decoration: underline;
+    color: blue;
+}
+
+#lançamentos span:hover{
+    cursor: pointer;
+}
+
+/*CATALOGO*/
+
+#catalogo{
+    width: 1000px;
+    height: 680px;
+    margin-top: 45px;
+    margin-right: 35px;
+    float: right;
+    background-color: black;
+    border-radius: 5px;
+}
+
+#catalogo img{
+    width: 150px;
+    height: 225px;
+    margin: auto;
+}
+
+#catalogo div:hover{
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#catalogo div{
+    width: 150px;
+    height: 225px;
+    margin-top: 30px;
+    margin-left: 35px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#catalogo p{
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Bebas Neue';
+    font-size: 18px;
+    color: #fc4604;
+}
+
+#catalogo .fila2{
+    margin-top: 80px;
+}
+
+/*rodapé*/
+
+footer{
+    margin-top: 35px;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    border: black solid 1px;
+}
+
+footer  h2{
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Audiowide';
+    font-size: 45px;
+    color: #e6e6e6;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 30px;
+    color: #ffffff;
+}
+
